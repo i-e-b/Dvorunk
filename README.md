@@ -13,3 +13,5 @@ Todo:
 * Fix the scan codes in the windows driver
 * Make a Linux xkbd driver
 * Explain to co-workers why they can't make my machine work...
+
+if possible, it would be nice to get alt-gr arrow keys.
