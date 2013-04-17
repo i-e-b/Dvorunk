@@ -2,6 +2,7 @@ Dvorunk
 =======
 
 An experimental keyboard layout for windows and linux
+![Layout](Dvorunk.png)
 
 Why?
 ------
@@ -11,6 +12,7 @@ This is that layout; It's very similar to the Dvorak Simplified layout, but with
 Todo:
 -----
 * Fix the scan codes in the windows driver
+* Swap the symbols and numbers at the top row
 * Make a Linux xkbd driver
 * Explain to co-workers why they can't make my machine work...
 
