@@ -1,4 +1,4 @@
-! KBD	Dvorunk1	"UK layout Dvorunk 1.2"
+! KBD	Dvorunk_	"UK layout Dvorunk 1.3"
  ! 
  ! COPYRIGHT	"(c) 2013 Iain Ballard"
  ! 
@@ -51,10 +51,10 @@ keycode 0x14 = bracketleft	braceleft
 keycode 0x15 = bracketright	braceright				
 ! 10	Y		1	y	Y	-1	0028		// LATIN SMALL LETTER Y, LATIN CAPITAL LETTER Y, <none>, LEFT PARENTHESIS (norm='y', shift='Y', AltGr='(', AltGr+shift='')
 keycode 0x18 = y	Y	parenleft		parenleft	
-! 11	I		1	i	I	-1	005b		// LATIN SMALL LETTER I, LATIN CAPITAL LETTER I, <none>, LEFT SQUARE BRACKET (norm='i', shift='I', AltGr='[', AltGr+shift='')
-keycode 0x19 = i	I	bracketleft		bracketleft	
-! 12	D		1	d	D	-1	005d		// LATIN SMALL LETTER D, LATIN CAPITAL LETTER D, <none>, RIGHT SQUARE BRACKET (norm='d', shift='D', AltGr=']', AltGr+shift='')
-keycode 0x1a = d	D	bracketright		bracketright	
+! 11	I		1	x	X	-1	005b		// LATIN SMALL LETTER X, LATIN CAPITAL LETTER X, <none>, LEFT SQUARE BRACKET (norm='x', shift='X', AltGr='[', AltGr+shift='')
+keycode 0x19 = x	X	bracketleft		bracketleft	
+! 12	D		1	f	F	-1	005d		// LATIN SMALL LETTER F, LATIN CAPITAL LETTER F, <none>, RIGHT SQUARE BRACKET (norm='f', shift='F', AltGr=']', AltGr+shift='')
+keycode 0x1a = f	F	bracketright		bracketright	
 ! 13	P		1	p	P	-1	0029		// LATIN SMALL LETTER P, LATIN CAPITAL LETTER P, <none>, RIGHT PARENTHESIS (norm='p', shift='P', AltGr=')', AltGr+shift='')
 keycode 0x1b = p	P	parenright		parenright	
 ! 14	OEM_7		0	0027	0022	-1	-1		// APOSTROPHE, QUOTATION MARK, <none>, <none> (norm=''', shift='"', AltGr='-1', AltGr+shift='')
@@ -81,10 +81,10 @@ keycode 0x27 = o	O	braceleft		braceleft
 keycode 0x28 = e	E	braceright		braceright	
 ! 21	U		1	u	U	-1	003e		// LATIN SMALL LETTER U, LATIN CAPITAL LETTER U, <none>, GREATER-THAN SIGN (norm='u', shift='U', AltGr='>', AltGr+shift='')
 keycode 0x29 = u	U	greater		greater	
-! 22	X		1	x	X	-1	-1		// LATIN SMALL LETTER X, LATIN CAPITAL LETTER X, <none>, <none> (norm='x', shift='X', AltGr='-1', AltGr+shift='')
-keycode 0x2a = x	X				
-! 23	F		1	f	F	-1	-1		// LATIN SMALL LETTER F, LATIN CAPITAL LETTER F, <none>, <none> (norm='f', shift='F', AltGr='-1', AltGr+shift='')
-keycode 0x2b = f	F				
+! 22	X		1	i	I	-1	-1		// LATIN SMALL LETTER I, LATIN CAPITAL LETTER I, <none>, <none> (norm='i', shift='I', AltGr='-1', AltGr+shift='')
+keycode 0x2a = i	I				
+! 23	F		1	d	D	-1	-1		// LATIN SMALL LETTER D, LATIN CAPITAL LETTER D, <none>, <none> (norm='d', shift='D', AltGr='-1', AltGr+shift='')
+keycode 0x2b = d	D				
 ! 24	H		1	h	H	-1	-1		// LATIN SMALL LETTER H, LATIN CAPITAL LETTER H, <none>, <none> (norm='h', shift='H', AltGr='-1', AltGr+shift='')
 keycode 0x2c = h	H				
 ! 25	T		1	t	T	-1	-1		// LATIN SMALL LETTER T, LATIN CAPITAL LETTER T, <none>, <none> (norm='t', shift='T', AltGr='-1', AltGr+shift='')
@@ -214,4 +214,5 @@ keycode 0x5b = period	period
  ! 
  ! 0409	English (United Kingdom)
  ! 
- ! ENDKBD 
+ ! ENDKBD
+ !  
